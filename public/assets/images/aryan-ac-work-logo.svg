@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <!-- Deep Navy metallic gradient for the A -->
+    <linearGradient id="navyA" x1="0.1" y1="0.9" x2="0.6" y2="0.1">
+      <stop offset="0%" stop-color="#041224" />
+      <stop offset="35%" stop-color="#07203d" />
+      <stop offset="70%" stop-color="#0c3563" />
+      <stop offset="100%" stop-color="#024987" />
+    </linearGradient>
+
+    <!-- Main Cyan Cooling Breeze Wave -->
+    <linearGradient id="waveCyanTop" x1="0" y1="0.3" x2="1" y2="0.7">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="20%" stop-color="#38bdf8" />
+      <stop offset="60%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+
+    <!-- Lower Wave Ribbon -->
+    <linearGradient id="waveCyanBottom" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="50%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Flanking Accent Lines -->
+    <linearGradient id="cyanLineL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0088d4" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0088d4" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="cyanLineR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0088d4" stop-opacity="1" />
+      <stop offset="100%" stop-color="#0088d4" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Pure White Background -->
+  <rect width="600" height="600" fill="#ffffff" />
+
+  <g transform="translate(0, 10)">
+    <!-- 1. The Stylized Letter A -->
+    <!-- Left Leg -->
+    <path d="M 288 78 L 322 78 L 426 318 L 358 318 L 314 212 C 310 202 298 180 286 160 C 274 180 262 202 258 212 L 214 318 L 146 318 Z" fill="url(#navyA)" />
+
+    <!-- 2. The Dynamic Cooling Air Wave (Aerodynamic breeze swoosh) -->
+    <!-- Under layer depth wave -->
+    <path d="M 185 264 C 235 210 305 188 380 204 C 435 215 480 245 536 218 C 510 252 458 280 400 268 C 328 252 254 242 185 264 Z" fill="url(#waveCyanBottom)" />
+
+    <!-- Main upper swoosh -->
+    <path d="M 168 258 C 240 185 328 175 404 196 C 454 210 496 238 544 206 C 512 262 450 284 394 262 C 326 235 248 230 168 258 Z" fill="url(#waveCyanTop)" />
+
+    <!-- Pure white crest curve inside wave for 3D ribbon pop -->
+    <path d="M 182 254 C 248 196 332 186 400 205 C 442 216 478 238 518 214 C 476 242 434 220 394 210 C 328 196 250 204 182 254 Z" fill="#ffffff" opacity="0.95" />
+
+    <!-- 3. Crisp Cyan Snowflake (Six-fold symmetry) -->
+    <g transform="translate(472, 192) scale(0.68)" stroke="#0ea5e9" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <!-- 6 Main Spokes -->
+      <line x1="0" y1="-64" x2="0" y2="64" />
+      <line x1="-55.4" y1="-32" x2="55.4" y2="32" />
+      <line x1="-55.4" y1="32" x2="55.4" y2="-32" />
+
+      <!-- Center Hexagon -->
+      <polygon points="0,-15 13,-7.5 13,7.5 0,15 -13,7.5 -13,-7.5" fill="#ffffff" stroke="#0ea5e9" stroke-width="4.5" />
+
+      <!-- Branch Feathers (Upper spoke) -->
+      <path d="M -16 -40 L 0 -52 L 16 -40" />
+      <path d="M -12 -22 L 0 -34 L 12 -22" />
+
+      <!-- Branch Feathers (Lower spoke) -->
+      <path d="M -16 40 L 0 52 L 16 40" />
+      <path d="M -12 22 L 0 34 L 12 22" />
+
+      <!-- Branch Feathers (60 deg spoke) -->
+      <g transform="rotate(60)">
+        <path d="M -16 -40 L 0 -52 L 16 -40" />
+        <path d="M -12 -22 L 0 -34 L 12 -22" />
+      </g>
+      <!-- Branch Feathers (120 deg spoke) -->
+      <g transform="rotate(120)">
+        <path d="M -16 -40 L 0 -52 L 16 -40" />
+        <path d="M -12 -22 L 0 -34 L 12 -22" />
+      </g>
+      <!-- Branch Feathers (180 deg spoke) -->
+      <g transform="rotate(180)">
+        <path d="M -16 -40 L 0 -52 L 16 -40" />
+        <path d="M -12 -22 L 0 -34 L 12 -22" />
+      </g>
+      <!-- Branch Feathers (240 deg spoke) -->
+      <g transform="rotate(240)">
+        <path d="M -16 -40 L 0 -52 L 16 -40" />
+        <path d="M -12 -22 L 0 -34 L 12 -22" />
+      </g>
+      <!-- Branch Feathers (300 deg spoke) -->
+      <g transform="rotate(300)">
+        <path d="M -16 -40 L 0 -52 L 16 -40" />
+        <path d="M -12 -22 L 0 -34 L 12 -22" />
+      </g>
+    </g>
+
+    <!-- 4. ARYAN Bold Geometric Typography -->
+    <g transform="translate(300, 412)" text-anchor="middle">
+      <text font-family="'Plus Jakarta Sans', 'Montserrat', Arial, sans-serif" font-weight="900" font-size="78" fill="#081c36" letter-spacing="4">
+        ARYAN
+      </text>
+      <!-- Stylized Cyan Accent inside first A -->
+      <polygon points="-163,-42 -178,-15 -148,-15" fill="#009be3" />
+      <!-- Stylized Inner Cutout for second A -->
+      <polygon points="76,-42 61,-15 91,-15" fill="#ffffff" />
+    </g>
+
+    <!-- 5. — AC WORK — Subtitle with flanking gradient lines -->
+    <g transform="translate(300, 466)">
+      <!-- Left accent line -->
+      <line x1="-240" y1="-8" x2="-128" y2="-8" stroke="url(#cyanLineL)" stroke-width="3" stroke-linecap="round" />
+      
+      <!-- AC WORK text -->
+      <text x="0" y="0" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Montserrat', Arial, sans-serif" font-weight="800" font-size="34" fill="#0088d4" letter-spacing="6">
+        AC WORK
+      </text>
+      
+      <!-- Right accent line -->
+      <line x1="128" y1="-8" x2="240" y2="-8" stroke="url(#cyanLineR)" stroke-width="3" stroke-linecap="round" />
+    </g>
+
+    <!-- 6. Tagline: COOLING TODAY • COMFORT TOMORROW -->
+    <text x="300" y="522" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="14.5" fill="#0b203a" letter-spacing="5">
+      COOLING TODAY   •   COMFORT TOMORROW
+    </text>
+  </g>
+</svg>

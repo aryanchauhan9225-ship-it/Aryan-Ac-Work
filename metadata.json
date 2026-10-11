@@ -1,0 +1,6 @@
+{
+  "name": "ARYAN AC WORK",
+  "description": "Private business management tool for AC contracting, worker records, projects, hisaab ledger, bills, and Excel reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
